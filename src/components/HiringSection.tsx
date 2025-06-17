@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import {
   Briefcase,
   Warehouse,
@@ -50,7 +51,7 @@ export default function ExecutiveHiring() {
 
         {/* Right Side - Image */}
         <div className="w-full flex justify-center">
-          <img
+          <Image
             src="/logistics.png" // ✅ Replace with your imported image path
             alt="Logistics hiring"
             className="rounded-2xl shadow-xl object-cover w-[600px] h-auto"

@@ -36,7 +36,7 @@ export default function HeroSection() {
             className="rounded-2xl shadow-xl"
           />
           <p className="italic text-center mt-2 text-gray-500">
-            "We Are Your Sherpa, You Climb Everest"
+            &quot;We Are Your Sherpa, You Climb Everest&quot;
           </p>
         </div>
       </div>

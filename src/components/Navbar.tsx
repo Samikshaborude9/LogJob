@@ -7,7 +7,7 @@ export default function Navbar() {
       <ul className="flex gap-6 text-sm font-medium">
         <li><Link href="/about">About Us</Link></li>
         <li><Link href="/hiring">Hiring</Link></li>
-        <li><Link href="/client">Client's Say</Link></li>
+        <li><Link href="/client">Client&apos;s Say</Link></li>
         <li>
           <Link
             href="/contact"

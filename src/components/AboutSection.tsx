@@ -9,7 +9,7 @@ const AboutSection = () => {
       <div className="bg-blue-600 text-white  py-12 text-center">
         <h2 className="text-4xl font-bold mb-2">About Us</h2>
         <p className="max-w-2xl mx-auto text-2xl font-semibold ">
-         " Being An Insider, We Do It The Best!"
+        &quot;Being An Insider, We Do It The Best!&quot;
         </p>
       </div>
 
