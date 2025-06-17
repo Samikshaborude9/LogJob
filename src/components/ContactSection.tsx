@@ -1,6 +1,6 @@
 export default function ContactSection() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-[#ebebeb] px-6 py-12">
+    <section className="min-h-screen flex items-center justify-center bg-[#f9fafe] px-6 py-12">
       <div className="max-w-6xl w-full bg-white rounded-3xl shadow-lg grid md:grid-cols-2 overflow-hidden">
         {/* Left Info Section */}
         <div className="bg-blue-600 text-white p-10 flex flex-col justify-between">

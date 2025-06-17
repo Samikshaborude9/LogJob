@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="w-full text-gray-800">
+    <section id="about" className="w-full text-gray-800 px-16 bg-[#f9fafe]">
       {/* Top Banner */}
-      <div className="bg-blue-600 text-white px-6 py-12 text-center">
+      <div className="bg-blue-600 text-white  py-12 text-center">
         <h2 className="text-4xl font-bold mb-2">About Us</h2>
         <p className="max-w-2xl mx-auto text-2xl font-semibold ">
          " Being An Insider, We Do It The Best!"
@@ -14,7 +14,7 @@ const AboutSection = () => {
       </div>
 
       {/* Two Column Section */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 py-12 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8  py-12 items-center">
         <div>
           <Image
             src="/team.png" 

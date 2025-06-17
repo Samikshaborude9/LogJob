@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 export default function HeroSection() {
   return (
-    <section className="bg-[#f9fafe]">
+    <section className="bg-[#f9fafe] px-14">
       {/* Hero Top Section */}
       <div className="min-h-screen grid grid-cols-1 md:grid-cols-2 items-center gap-10 p-10">
         <div>
@@ -45,7 +45,7 @@ export default function HeroSection() {
       <div className="grid md:grid-cols-2 gap-10 items-center px-10 pb-16">
         <Image
           src="/teamImg.png"
-          alt=" work"
+          alt="work"
           width={500}
           height={350}
           className="rounded-lg"
@@ -75,9 +75,16 @@ export default function HeroSection() {
 
         <div className="grid md:grid-cols-3 gap-6">
           {/* Card 1 */}
-          <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
-            <Image src="/transportation.png" alt="transportation" width={500} height={300} />
-            <div className="p-4">
+          <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition w-full">
+            <div className="h-52 w-full relative">
+              <Image
+                src="/transportation.png"
+                alt="transportation"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="p-5">
               <h3 className="font-bold text-lg">Transportation</h3>
               <p className="text-sm text-gray-600 mt-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
@@ -86,9 +93,16 @@ export default function HeroSection() {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
-            <Image src="/air.png" alt="Air/Ocean Freight" width={500} height={300} />
-            <div className="p-4">
+          <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition w-full">
+            <div className="h-52 w-full relative">
+              <Image
+                src="/air.png"
+                alt="Air/Ocean Freight"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="p-5">
               <h3 className="font-bold text-lg">Air/Ocean Freight</h3>
               <p className="text-sm text-gray-600 mt-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
@@ -97,9 +111,16 @@ export default function HeroSection() {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
-            <Image src="/wearhousing.png" alt="Warehousing" width={500} height={300} />
-            <div className="p-4">
+          <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition w-full">
+            <div className="h-52 w-full relative">
+              <Image
+                src="/wearhousing.png"
+                alt="Warehousing"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="p-5">
               <h3 className="font-bold text-lg">Warehousing</h3>
               <p className="text-sm text-gray-600 mt-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.

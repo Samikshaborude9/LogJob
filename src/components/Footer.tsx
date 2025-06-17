@@ -19,8 +19,8 @@ export default function Footer() {
           </div>
 
           {/* Right Column */}
-          <div>
-            <h2 className="text-2xl font-semibold mb-4">Business Hours</h2>
+          <div className="pl-80">
+            <h2 className="text-2xl font-semibold mb-4 ">Business Hours</h2>
             <ul className="space-y-1">
               <li>Monday – Closed</li>
               <li>Tuesday : 11.00 – 09.00</li>
