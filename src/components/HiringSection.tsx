@@ -27,7 +27,7 @@ const sectors = [
 
 export default function HiringSection() {
   return (
-    <section className="bg-white py-16 px-6 md:px-12">
+    <section className="bg-white py-16 px-6 md:px-12 h-[100vh]">
       <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-blue-900 uppercase">
         Executive Hiring For
       </h2>

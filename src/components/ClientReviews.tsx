@@ -26,7 +26,7 @@ const clients = [
 
 export default function ClientReviews() {
   return (
-    <section className="bg-blue-400 py-20 px-6">
+    <section className="bg-blue-600 py-20 px-6 h-[100vh]">
       <h2 className="text-4xl font-bold text-center mb-12 text-black">
         What do our users say?
       </h2>

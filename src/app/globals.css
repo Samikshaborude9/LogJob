@@ -6,6 +6,9 @@
   @apply w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#4B2D7F];
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 @theme inline {
   --color-background: var(--background);
